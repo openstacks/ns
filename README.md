@@ -31,3 +31,4 @@ to unshare(1)
 # how to run    
 ./uts test
 ./ns_exec /proc/2937/ns/uts hostname
+./unshare -u hostname
